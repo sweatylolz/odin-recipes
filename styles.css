@@ -1,22 +1,48 @@
+body {
+    margin: 15px;
+}
 
 
 h1 {
+    width: 200px;
+    height: auto;
     background-color: red;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #home {
+    width: 100px;
+    height: 75px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    margin-top: -37.5px;
+    margin-left: -50px;
     color: green;
     font-weight: bold;
     font-size: 25px;
+    text-align: center;
+    outline: 3px solid black;
+
+
 }
 
 h4 {
     font-weight: bold;
     color: blue;
+    text-align: center;
 }
  
-h5{
+h5 {
     color: aqua;
+}
+
+a {
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    margin: 20px;
 }
